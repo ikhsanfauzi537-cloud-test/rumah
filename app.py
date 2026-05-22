@@ -4,7 +4,7 @@ import pandas as pd
 
 # 1. Load Model
 # Pastikan nama file model di bawah ini SESUAI dengan nama file .pkl yang kamu unduh dari Colab
-model = joblib.load('model_datamining.pkl') 
+model = joblib.load('final_linear_regression_model.pkl') 
 
 # 2. Judul & Deskripsi Aplikasi
 st.title("Aplikasi Prediksi Harga Rumah")
