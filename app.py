@@ -4,7 +4,7 @@ import pandas as pd
 
 # 1. Load Model
 # Ganti 'model_datamining.pkl' dengan nama file modelmu yang sebenarnya jika berbeda
-model = joblib.load('model_datamining.pkl') 
+model = joblib.load('final_linear_regression_model.pkl') 
 
 # 2. Judul & Deskripsi Aplikasi
 st.title("Aplikasi Prediksi Harga Rumah")
